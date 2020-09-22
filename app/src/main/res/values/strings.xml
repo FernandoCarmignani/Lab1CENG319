@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">FernandodoPradoCarmignanidoCarmo_CENG319Lab1Ex1</string>
-    <string name="AI">AIActivity</string>
+    <string name="AI">AIActivity:</string>
+    <string name="VR">VRActivity:</string>
     <string name="ListView">List</string>
+    <string name="Textview">Main Activity:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onstart">onstart</string>
+    <string name="execute">Execute</string>
 </resources>

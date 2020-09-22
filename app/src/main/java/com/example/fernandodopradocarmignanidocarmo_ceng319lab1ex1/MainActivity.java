@@ -7,20 +7,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class MainActivity extends AppCompatActivity {
-    String[]  Activities = {"AIActivity","VRActivity"};
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        ArrayAdapter LISTADP = new ArrayAdapter<String>(this, R.layout.activity_listview, Activities);
-
-        ListView newlist = (ListView) findViewById(R.id.Act_List);
-        newlist.setAdapter(LISTADP);
-
 
 
     }
